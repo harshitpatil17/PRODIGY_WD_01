@@ -1,4 +1,3 @@
-![Uploading Screenshot 2025-02-14 202846.png…]()
 Completed Task 1:🚀 Introducing HMovies – A Movie Website Landing Page.
 Just finished building a movie website landing page using HTML, CSS, and JavaScript with a dynamic carousel! 
 🔹 Key Features:
