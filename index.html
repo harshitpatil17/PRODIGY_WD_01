@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Movie Website</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">HMovies</a>
+        <ul class="nav">
+           <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+           <li><a href="#">Adults</a></li>
+           <li><a href="#">Kids</a></li>
+           <li><a href="#">Trending</a></li>
+           <li><a href="#">Watch List</a></li>
+        </ul>
+        <div class="search">
+            <input type="text" placeholder="search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
+    </header>
+    <div class="banner">
+        <div class="content active">
+            <img src="img/avatar-the-way-of-water-large-logo-png (1).png" alt="" class="Movietitle">
+            <h4>
+                <span>2022</span>
+                <span><i>16+</i>
+                </span><span>3h 12m</span>
+                <span>Action/Sci-fi</span>
+            </h4>
+            <p>Jake Sully and Ney'tiri have formed a family and are doing everything to stay together. However, they must leave their home and explore the regions of Pandora. When an ancient threat resurfaces, Jake must fight a difficult war against the humans.
+            </p>
+            <div class="button">
+                <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Play</a>
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>Watch List</a>
+            </div>
+        </div>
+        <div class="content pushpa">
+                <img src="img/pushpa2 logo.png" alt="" class="Movietitle">
+                <h4><span>2024</span>
+                    <span><i>18+</i></span>
+                    <span>3h 15m</span>
+                    <span>Action/Thriller</span></h4>
+                <p>The clash is on as Pushpa and Bhanwar Singh continue their rivalry in this epic conclusion to the two-parted action drama.</p>
+            <div class="button">
+                <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Play</a>
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>Watch List</a>
+            </div>
+        </div>
+        <div class="content pirates">
+                <img src="img/pirates logo.png" alt="" class="Movietitle">
+                <h4><span>2003</span>
+                    <span><i>PG-13</i></span>
+                    <span>2h 23m</span>
+                    <span>Adventure/Action</span></h4>
+                <p>Will, a blacksmith, joins forces with Captain Jack Sparrow, a pirate, to rescue the love of his life from Jack's associates, who have kidnapped her suspecting she has his medallion.</p>
+            <div class="button">
+                <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Play</a>
+                <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>Watch List</a>
+            </div>
+        </div>
+            <div class="content avengers">
+                <img src="img/Avengers_endgame_logo.png" alt="" class="Movietitle">
+                <h4><span>2019</span>
+                    <span><i>16+</i></span>
+                    <span>3h 1m</span>
+                    <span>Action/Sci-fi</span></h4>
+                <p>After Thanos, an intergalactic warlord, disintegrates half of the universe, the Avengers must reunite and assemble again to reinvigorate their trounced allies and restore balance.</p>
+                <div class="button">
+                    <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Play</a>
+                    <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>Watch List</a>
+                </div>
+            </div>
+            <div class="content rrr">
+                <img src="img/rrr logo.png" alt="" class="Movietitle">
+                <h4><span>2022</span>
+                    <span><i>16+</i></span>
+                    <span>3h 2m</span>
+                    <span>Action/Adventure</span></h4>
+                <p>A fearless revolutionary and an officer in the British force, who once shared a deep bond, decide to join forces and chart out an inspirational path of freedom against the despotic rulers.</p>
+                <div class="button">
+                    <a href="#"><i class="fa fa-play" aria-hidden="true"></i>Play</a>
+                    <a href="#"><i class="fa fa-plus" aria-hidden="true"></i>Watch List</a>
+                </div>
+            </div>
+        
+        
+    <div class="carousel-box">
+        <div class="carousel">
+            <div class="carousel-item" onclick="changeBg('img/avatar.jpg', 'active', 'video/Avatar__The_Way_of_Water___Official_Trailer(1080p).mp4')">
+                <img src="img/Front avatar.jpg" alt="">
+            </div>
+            <div class="carousel-item" onclick="changeBg('img/push.jpg', 'pushpa', 'video/Pushpa_2_-_The_Rule_Trailer__Hindi____Allu_Arjun___Sukumar___Rashmika_Mandanna___Fahadh_Faasil___DSP(1080p).mp4')">
+                <img src="img/pushpa.png" alt="">
+            </div>
+            <div class="carousel-item" onclick="changeBg('img/pirate.jpg', 'pirates', 'video/Pirates_of_the_Caribbean__The_Curse_of_the_Black_Pearl_Official_Trailer_1__2003__HD(1080p).mp4')">
+                <img src="img/pirates.jpeg" alt="">
+            </div>
+            <div class="carousel-item" onclick="changeBg('img/aveng.jpg', 'avengers', 'video/Marvel_Studios__Avengers_-_Official_Trailer(1080p).mp4')">
+                <img src="img/Avengers.jpg" alt="">
+            </div>
+            <div class="carousel-item" onclick="changeBg('img/rr.jpg', 'rrr', 'video/RRR_Official_Trailer__Hindi__India’s_Biggest_Action_Drama___NTR,RamCharan,AjayD,AliaB___SS_Rajamouli(1080p).mp4')">
+                <img src="img/rrr.jpg" alt="">
+            </div>
+        </div>
+    </div>
+        <a href="#" class="Watch"  onClick="toggleVideo();"
+        ><i class="fa fa-play-circle" aria-hidden="true"></i>Watch Trailer</a>
+        <ul class="sci">
+            <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        </ul>
+    </div>
+    <div class="trailer">
+        <video src="video/Avatar__The_Way_of_Water___Official_Trailer(1080p).mp4"
+        muted
+        controls="true"
+        autoplay="true"
+        ></video>
+        <img class="close" src="img/Close.png" alt=""
+        onClick="toggleVideo();"
+        >
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./script.js"></script>
+    <script>
+          $(document).ready(function(){
+    $('.carousel').carousel();
+  });
+    </script>
+</body>
+</html>
